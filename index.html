@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Poorvaj M Gowda — Computer Science Engineering student and frontend developer.">
+  <title>Poorvaj M Gowda | Frontend Developer</title>
+
+  <!-- Bootstrap 4.5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-glow glow-one"></div>
+  <div class="site-glow glow-two"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#home" aria-label="Poorvaj home">P<span>M</span>G.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ml-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ml-lg-2"><button id="admin-btn" class="nav-link nav-admin" type="button">Admin Login</button></li>
+          <li class="nav-item ml-lg-2"><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme"><i class="fas fa-sun"></i></button></li>
+          <li class="nav-item ml-lg-2"><a class="btn btn-primary nav-cta" href="#contact">Let's Talk <i class="fas fa-arrow-up-right-from-square ml-1"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section section-pad">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 hero-copy">
+            <div class="eyebrow"><span class="status-dot"></span> OPEN TO FRONTEND INTERNSHIPS</div>
+            <p class="hello">Hello, I'm</p>
+            <h1>Poorvaj <span>M Gowda.</span></h1>
+            <h2 class="hero-headline">I build digital experiences<br class="d-none d-md-block"> that make a difference.</h2>
+            <p class="hero-description">I'm a third-year Computer Science Engineering student who enjoys building useful, responsive web experiences and exploring AI-powered applications.</p>
+            <div class="typing-line">Currently exploring <span id="typing-text">Frontend Development</span><span class="typing-cursor">|</span></div>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary btn-lg">Explore Projects <i class="fas fa-arrow-right ml-2"></i></a>
+              <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+              <a href="assets/Poorvaj-Resume.pdf" class="resume-link" download><i class="fas fa-download mr-2"></i>Resume</a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/123poorvaj" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/poorvaj-m-gowda-5a8a64357/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <span class="social-note">Building. Learning. Improving.</span>
+            </div>
+          </div>
+          <div class="col-lg-5 mt-5 mt-lg-0">
+            <div class="developer-visual" aria-label="Decorative code editor illustration">
+              <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+              <div class="code-window">
+                <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><i class="fas fa-ellipsis-h"></i></div>
+                <div class="code-content">
+                  <div><span class="line-no">01</span><span class="code-purple">const</span> developer = {</div>
+                  <div><span class="line-no">02</span>&nbsp;&nbsp;name: <span class="code-green">'Poorvaj'</span>,</div>
+                  <div><span class="line-no">03</span>&nbsp;&nbsp;focus: <span class="code-green">'Frontend'</span>,</div>
+                  <div><span class="line-no">04</span>&nbsp;&nbsp;learning: [</div>
+                  <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">'JavaScript'</span>,</div>
+                  <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">'AI + LLMs'</span></div>
+                  <div><span class="line-no">07</span>&nbsp;&nbsp;],</div>
+                  <div><span class="line-no">08</span>&nbsp;&nbsp;build: <span class="code-blue">() =&gt;</span> <span class="code-green">'Ideas'</span></div>
+                  <div><span class="line-no">09</span>};</div>
+                  <div class="code-bottom"><span class="code-purple">console</span>.log(developer); <span class="typing-cursor">▌</span></div>
+                </div>
+              </div>
+              <div class="float-chip chip-html"><i class="fab fa-html5"></i> HTML5</div>
+              <div class="float-chip chip-js"><i class="fab fa-js-square"></i> JavaScript</div>
+              <div class="float-chip chip-ai"><i class="fas fa-brain"></i> GenAI</div>
+            </div>
+          </div>
+        </div>
+        <a href="#about" class="scroll-cue"><span></span> Scroll to explore</a>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">A LITTLE ABOUT ME</p><h2>Curious mind. <span>Builder's heart.</span></h2><p>Learning by building things that solve real problems.</p></div>
+        <div class="row align-items-stretch">
+          <div class="col-lg-7 mb-4 mb-lg-0"><div class="glass-card about-card h-100">
+            <div class="card-icon"><i class="fas fa-user-astronaut"></i></div>
+            <h3>My journey</h3>
+            <p>I'm a third-year Computer Science Engineering student at SDMIT, Ujire, Karnataka. I enjoy turning ideas into clean, accessible web interfaces and steadily expanding my skills through practical projects.</p>
+            <p>My current interests include frontend development, Python APIs, and AI-powered applications using Generative AI and large language models.</p>
+            <div class="about-tags"><span>Problem solving</span><span>Continuous learning</span><span>Practical projects</span></div>
+          </div></div>
+          <div class="col-lg-5"><div class="glass-card objective-card h-100">
+            <p class="section-kicker">CAREER OBJECTIVE</p><h3>Build useful things.<br><span>Grow with great teams.</span></h3>
+            <p>I'm looking for a frontend development internship where I can contribute, learn from experienced developers, and create user-friendly digital products.</p>
+            <a href="#contact" class="text-link">Let's connect <i class="fas fa-arrow-right ml-1"></i></a>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">WHAT I WORK WITH</p><h2>Skills & <span>technologies.</span></h2><p>A growing toolkit for building web applications.</p></div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4"><div class="glass-card skill-card"><div class="skill-icon blue"><i class="fas fa-code"></i></div><h3>Frontend</h3><div class="skill-pills"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span><span>React</span></div></div></div>
+          <div class="col-md-6 col-lg-4 mb-4"><div class="glass-card skill-card"><div class="skill-icon violet"><i class="fas fa-server"></i></div><h3>Backend & APIs</h3><div class="skill-pills"><span>Python</span><span>FastAPI</span><span>REST APIs</span></div></div></div>
+          <div class="col-md-6 col-lg-4 mb-4"><div class="glass-card skill-card"><div class="skill-icon green"><i class="fas fa-robot"></i></div><h3>AI & Tools</h3><div class="skill-pills"><span>Generative AI</span><span>LLMs</span><span>Git</span><span>GitHub</span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">SELECTED WORK</p><h2>Projects with <span>purpose.</span></h2><p>A few projects I'm building and improving.</p></div>
+        <div class="row" id="projects-grid">
+          <div class="col-lg-4 col-md-6 mb-4"><article class="glass-card project-card h-100"><div class="project-art art-business"><i class="fas fa-map-marked-alt"></i><span>LOCAL SERVICES • AI</span></div><div class="project-body"><div class="project-meta">01 / AI ASSISTANT</div><h3>AI Local Business Assistant</h3><p>A concept for helping users discover suitable local services from their requirements and a curated set of business information.</p><div class="project-tags"><span>JavaScript</span><span>AI</span><span>Bootstrap</span></div><div class="project-links"><a href="https://github.com/123poorvaj" target="_blank" rel="noopener noreferrer">GitHub <i class="fas fa-arrow-up-right-alt ml-1"></i></a><a href="#contact">Ask about it <i class="fas fa-arrow-right ml-1"></i></a></div></div></article></div>
+          <div class="col-lg-4 col-md-6 mb-4"><article class="glass-card project-card h-100"><div class="project-art art-quiz"><i class="fas fa-layer-group"></i><span>LEARN • PRACTICE • GROW</span></div><div class="project-body"><div class="project-meta">02 / LEARNING TOOL</div><h3>QuizMaster</h3><p>A quiz application concept for practicing subjects, with separate teacher and student experiences.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/123poorvaj" target="_blank" rel="noopener noreferrer">GitHub <i class="fas fa-arrow-up-right-alt ml-1"></i></a><a href="#contact">Ask about it <i class="fas fa-arrow-right ml-1"></i></a></div></div></article></div>
+          <div class="col-lg-4 col-md-6 mb-4"><article class="glass-card project-card h-100"><div class="project-art art-portfolio"><i class="fas fa-laptop-code"></i><span>DESIGN • DEVELOP • DEPLOY</span></div><div class="project-body"><div class="project-meta">03 / PERSONAL WEBSITE</div><h3>Developer Portfolio</h3><p>A responsive portfolio to present my skills, projects, learning journey, and contact information.</p><div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap 4.5</span></div><div class="project-links"><a href="https://github.com/123poorvaj/react-Portfolio" target="_blank" rel="noopener noreferrer">GitHub <i class="fas fa-arrow-up-right-alt ml-1"></i></a><a href="https://react-portfolio-femr.onrender.com" target="_blank" rel="noopener noreferrer">Live portfolio <i class="fas fa-arrow-up-right-alt ml-1"></i></a></div></div></article></div>
+        </div>
+        <p class="small muted text-center mt-2">Replace project links with each project's actual repository and live demo before publishing.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">MY FOUNDATION</p><h2>Education & <span>learning.</span></h2><p>Building a strong base through coursework and hands-on practice.</p></div>
+        <div class="timeline">
+          <div class="timeline-item"><div class="timeline-dot"></div><div class="glass-card timeline-card"><span class="timeline-date">CURRENT</span><h3>B.E. Computer Science Engineering</h3><p class="timeline-place">Sri Dharmasthala Manjunatheshwara Institute of Technology (SDMIT), Ujire</p><p>Third-year student developing skills in web development, programming, and software engineering fundamentals.</p></div></div>
+          <div class="timeline-item"><div class="timeline-dot"></div><div class="glass-card timeline-card"><span class="timeline-date">PRACTICAL LEARNING</span><h3>Web Development & AI Projects</h3><p>Learning through portfolio work, interactive web applications, REST APIs, and exploration of Generative AI and LLMs.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">HAVE A PROJECT OR OPPORTUNITY?</p><h2>Let's make something <span>meaningful.</span></h2><p>Reach out about internships, collaboration, or projects.</p></div>
+        <div class="row">
+          <div class="col-lg-5 mb-4 mb-lg-0"><div class="glass-card contact-info h-100"><div class="card-icon"><i class="far fa-paper-plane"></i></div><h3>Get in touch</h3><p>I'm interested in learning opportunities and building helpful digital experiences with a team.</p><a href="https://github.com/123poorvaj" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> github.com/123poorvaj</a><a href="https://www.linkedin.com/in/poorvaj-m-gowda-5a8a64357/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i> Connect on LinkedIn</a><div class="contact-note"><i class="fas fa-lightbulb"></i><span>Have an idea? Tell me a little about it in the form.</span></div></div></div>
+          <div class="col-lg-7"><form id="contact-form" class="glass-card contact-form" novalidate>
+            <div class="form-row"><div class="form-group col-md-6"><label for="contact-name">Your name</label><input class="form-control" id="contact-name" name="name" type="text" placeholder="Jane Doe" required maxlength="100"></div><div class="form-group col-md-6"><label for="contact-email">Email address</label><input class="form-control" id="contact-email" name="email" type="email" placeholder="jane@example.com" required maxlength="150"></div></div>
+            <div class="form-group"><label for="contact-subject">Subject</label><input class="form-control" id="contact-subject" name="subject" type="text" placeholder="Internship opportunity" required maxlength="150"></div>
+            <div class="form-group"><label for="contact-message">Message</label><textarea class="form-control" id="contact-message" name="message" rows="5" placeholder="Tell me how we can work together..." required maxlength="3000"></textarea></div>
+            <button class="btn btn-primary btn-lg" type="submit" id="contact-submit"><span class="submit-label">Send Message</span><span class="spinner-border spinner-border-sm d-none" id="contact-spinner" role="status" aria-hidden="true"></span><i class="fas fa-paper-plane ml-2"></i></button>
+            <div id="contact-status" class="form-status mt-3" role="status" aria-live="polite"></div>
+            <p class="form-footnote">Contact delivery requires your configured Google Apps Script endpoint in <code>js/script.js</code>.</p>
+          </form></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="admin-login" class="section-pad admin-section" hidden>
+      <div class="container"><div class="section-heading"><p class="section-kicker">PRIVATE AREA</p><h2>Admin <span>sign in.</span></h2><p>Sign in to view contact messages.</p></div>
+        <div class="row justify-content-center"><div class="col-md-7 col-lg-5"><form id="admin-from" class="glass-card admin-form">
+          <div class="form-group"><label for="admin-name">Username</label><input class="form-control" id="admin-name" autocomplete="username" required></div>
+          <div class="form-group"><label for="admin-password">Password</label><div class="password-wrap"><input class="form-control" id="admin-password" type="password" autocomplete="current-password" required><button type="button" id="toggle-password" aria-label="Show password"><i class="far fa-eye"></i></button></div></div>
+          <button class="btn btn-primary btn-block" id="admin-submit" type="submit">Sign In</button><p id="login-error" class="form-status error-text mt-3" role="alert"></p>
+          <p class="form-footnote">Authentication must be verified by the Apps Script backend. Do not place admin credentials in this frontend.</p>
+        </form></div></div>
+      </div>
+    </section>
+
+    <section id="user-responses" class="section-pad admin-section" hidden>
+      <div class="container"><div class="dashboard-head"><div><p class="section-kicker">ADMIN DASHBOARD</p><h2>Contact <span>responses.</span></h2></div><div class="dashboard-actions"><span class="response-count"><strong id="total-responses">0</strong> messages</span><button id="admin-logout" class="btn btn-outline-light" type="button">Log out</button></div></div>
+        <div class="glass-card project-admin-panel mb-4">
+          <div class="project-admin-heading"><div><p class="section-kicker">PORTFOLIO CONTENT</p><h3>Add a new project</h3><p class="muted mb-0">Add project details here and it will appear in the Projects section.</p></div></div>
+          <form id="add-project-form" class="project-admin-form mt-4">
+            <div class="form-row">
+              <div class="form-group col-md-6"><label for="new-project-title">Project title *</label><input class="form-control" id="new-project-title" maxlength="100" required placeholder="e.g. AI Resume Analyzer"></div>
+              <div class="form-group col-md-6"><label for="new-project-category">Category / short label</label><input class="form-control" id="new-project-category" maxlength="60" placeholder="e.g. AI TOOL"></div>
+            </div>
+            <div class="form-group"><label for="new-project-description">Description *</label><textarea class="form-control" id="new-project-description" rows="3" maxlength="600" required placeholder="What does your project do?"></textarea></div>
+            <div class="form-group"><label for="new-project-tech">Technologies *</label><input class="form-control" id="new-project-tech" maxlength="200" required placeholder="HTML, CSS, JavaScript (comma-separated)"></div>
+            <div class="form-row">
+              <div class="form-group col-md-6"><label for="new-project-github">GitHub URL</label><input class="form-control" id="new-project-github" type="url" placeholder="https://github.com/username/repository"></div>
+              <div class="form-group col-md-6"><label for="new-project-demo">Live demo URL</label><input class="form-control" id="new-project-demo" type="url" placeholder="https://your-project.example.com"></div>
+            </div>
+            <button class="btn btn-primary" id="add-project-submit" type="submit"><i class="fas fa-plus mr-2"></i>Add Project</button>
+            <p id="project-admin-status" class="form-status mt-3" role="status" aria-live="polite"></p>
+          </form>
+          <div class="saved-projects-admin mt-4"><h4>Your added projects</h4><div id="added-projects-list"><p class="muted mb-0">No projects added from the admin panel yet.</p></div></div>
+          <p class="form-footnote mt-3">Note: projects added here are saved in this browser only. To make them appear for all visitors on every device, connect project storage to a secure backend or database.</p>
+        </div>
+        <div class="dashboard-head mt-5"><div><p class="section-kicker">INBOX</p><h2>Contact <span>responses.</span></h2></div><span class="response-count"><strong id="total-responses">0</strong> messages</span></div>
+        <div id="respons-details" class="response-grid"><p class="muted">Sign in to load messages.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand-mark" href="#home">P<span>M</span>G.</a><p>Designed & built by Poorvaj M Gowda.</p><a href="#home" class="back-top">Back to top ↑</a></div><div class="container copyright">© <span id="current-year"></span> Poorvaj M Gowda. Built with HTML, CSS, JavaScript & Bootstrap 4.5.</div></footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
